@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Web Cinepolis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            background-color: white;
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+        }
+        h1 {
+            background-color: rgb(0, 28, 110);
+            color: white;
+            border: 5px solid rgb(255, 198, 9);
+            font-weight: 800;
+            letter-spacing: 0.5px;
+            padding: 50px;
+            text-align: center;
+            margin: 0;
+        }
+        nav {
+            background-color: rgb(0, 0, 70);
+            border: 5px solid rgb(255, 198, 9);
+            border-bottom: none;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        .registrate {
+            margin-left: auto;
+        }
+        .contenedor-principal {
+            display: flex;
+            gap: 30px;
+            margin: 30px 20px;
+            align-items: flex-start;
+        }
+        form {
+            background-color: rgb(0, 28, 110);
+            border: 3px solid rgb(255, 198, 9);
+            border-radius: 8px;
+            color: white;
+            width: 280px;
+            padding: 20px;
+            flex-shrink: 0;
+        }
+        select {
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0 20px 0;
+            border-radius: 5px;
+        }
+        input[type="submit"], input[type="reset"] {
+            background-color: rgb(255, 198, 9);
+            color: rgb(0, 0, 70);
+            border: none;
+            padding: 8px 15px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .informacion {
+            flex: 1;
+        }
+        .informacion h2 {
+            color: rgb(0, 28, 110);
+            margin-top: 0;
+        }
+        .informacion a {
+            color: rgb(0, 28, 110);
+            font-weight: bold;
+        }
+        footer {
+            background-color: rgb(0, 0, 70);
+            border: 5px solid rgb(255, 198, 9);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        footer p {
+            margin: 4px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="Cinepolis.html">Inicio</a>
+            <a href="Cartelera.html">Cartelera</a>
+            <a href="Estrenos.html">Próximos estrenos</a>
+        </div>
+        <a href="registrocineclub.html" class="registrate">Regístrate</a>
+    </nav>
+    <h1>Cinépolis</h1>
+    <div class="contenedor-principal">
+        <form action="" method="post"> 
+            <label for="cine"><strong>Elige tu cine:</strong></label><br>
+            <select name="cine" id="cine">
+                <option value="1">Gran Patio Zaragoza</option> 
+                <option value="2">Juarez Centro Mall</option>
+                <option value="3">Las Misiones</option>
+                <option value="4">Las Americas Juarez</option>
+                <option value="5">Pinocelli</option>
+            </select><br>
+            <input type="submit" value="Enviar"> 
+            <input type="reset" value="Borrar"> 
+        </form>
+        <div class="informacion">
+            <h2>Bienvenido a Cinépolis</h2>
+            <p>Selecciona tu sucursal favorita en el menú de la izquierda para consultar las funciones y horarios disponibles en tu ciudad.</p>
+            <h3>¿Qué puedes hacer en nuestro sitio?</h3>
+            <ul>
+                <li>Consultar la <a href="Cartelera.html">Cartelera del día</a>.</li>
+                <li>Ver las películas que llegarán en los <a href="Estrenos.html">Próximos estrenos</a>.</li>
+                <li>Acumular puntos y beneficios al <a href="registrocineclub.html">Registrarte en el Club</a>.</li>
+            </ul>
+            <h3>Promociones activas</h3>
+            <p>Disfruta de nuestras promociones especiales los días martes y descuentos en combos seleccionados al comprar en línea.</p>
+        </div>
+    </div>
+    <footer>
+        <p>Lia Natalia Bretado Quiroz</p>
+        <p>24308051281111</p>
+        <p>5to J</p>
+        <p>Programacion</p>
+        <p>Construye aplicaciones web</p>
+    </footer>
+</body>
+</html>

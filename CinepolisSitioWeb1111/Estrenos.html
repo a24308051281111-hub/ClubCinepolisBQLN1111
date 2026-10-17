@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Próximos Estrenos - Cinépolis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            background-color: white;
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+        }
+        h1 {
+            background-color: rgb(0, 28, 110);
+            color: white;
+            border: 5px solid rgb(255, 198, 9);
+            font-weight: 800;
+            letter-spacing: 0.5px;
+            padding: 50px;
+            text-align: center;
+            margin: 0;
+        }
+        nav {
+            background-color: rgb(0, 0, 70);
+            border: 5px solid rgb(255, 198, 9);
+            border-bottom: none;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        .registrate {
+            margin-left: auto;
+        }
+        .contenedor-estrenos {
+            margin: 30px 20px;
+        }
+        .contenedor-estrenos h2 {
+            color: rgb(0, 28, 110);
+        }
+        .grid-estrenos {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .tarjeta-estreno {
+            background-color: rgb(0, 28, 110);
+            border: 3px solid rgb(255, 198, 9);
+            border-radius: 8px;
+            color: white;
+            padding: 15px;
+            width: 250px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .tarjeta-estreno img {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+            border-radius: 5px;
+            border: 2px solid rgb(255, 198, 9);
+        }
+        .tarjeta-estreno h3 {
+            margin: 10px 0 5px 0;
+            color: rgb(255, 198, 9);
+        }
+        .tarjeta-estreno p {
+            margin: 4px 0;
+            font-size: 0.9rem;
+        }
+        .etiqueta-fecha {
+            background-color: rgb(255, 198, 9);
+            color: rgb(0, 0, 70);
+            padding: 6px 12px;
+            border-radius: 4px;
+            display: inline-block;
+            margin-top: 8px;
+            font-weight: bold;
+            font-size: 0.85rem;
+        }
+        footer {
+            background-color: rgb(0, 0, 70);
+            border: 5px solid rgb(255, 198, 9);
+            padding: 10px;
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+        }
+        footer p {
+            margin: 4px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="Cinepolis.html">Inicio</a>
+            <a href="Cartelera.html">Cartelera</a>
+            <a href="Estrenos.html">Próximos estrenos</a>
+        </div>
+        <a href="registrocineclub.html" class="registrate">Regístrate</a>
+    </nav>
+
+    <h1>Cinépolis - Próximos Estrenos</h1>
+
+    <div class="contenedor-estrenos">
+        <h2>Muy Pronto en Pantalla Grande</h2>
+        <div class="grid-estrenos">
+            <div class="tarjeta-estreno">
+                <img src="https://i.redd.it/4a68gyttrsif1.jpeg" alt="El Conjuro 4: Last Rites">
+                <h3>El Conjuro 4</h3>
+                <p><strong>Género:</strong> Terror / Suspenso</p>
+                <div class="etiqueta-fecha">Estreno: Septiembre</div>
+            </div>
+            <div class="tarjeta-estreno">
+                <img src="https://images.bauerhosting.com/empire/2024/07/Shrek-5-Poster.jpeg" alt="Shrek 5">
+                <p><strong>Género:</strong> Animado / Aventura</p>
+                <div class="etiqueta-fecha">Estreno: Octubre</div>
+            </div>
+            <div class="tarjeta-estreno">
+                <img src="https://www.cinematerial.com/p/297x/vdi4tpf9/a-minecraft-movie-movie-poster-md.jpg?v=1741066497" alt="Minecraft: La Película">
+                <h3>Minecraft: La Película</h3>
+                <p><strong>Género:</strong> Aventura / Fantasía</p>
+                <div class="etiqueta-fecha">Estreno: Diciembre</div>
+            </div>
+            <div class="tarjeta-estreno">
+                <img src="https://cdn.ome.lt/KVCCcrKfHm4RkG0dmUiBaHEPv2A=/fit-in/837x500/smart/filters:format(webp)/uploads/conteudo/fotos/es_mx_main_key_art_-_tree_localizations_main_main_key_art_-_tree_4_x_5_v_1080px1350p_rgb_pre_1.jpg" alt="Cien Años de Soledad">
+                <h3>Cien Años de Soledad</h3>
+                <p><strong>Género:</strong> Drama / Historia</p>
+                <div class="etiqueta-fecha">Estreno: Próximamente</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Lia Natalia Bretado Quiroz</p>
+        <p>24308051281111</p>
+        <p>5to J</p>
+        <p>Programacion</p>
+        <p>Construye aplicaciones web</p>
+    </footer>
+</body>
+</html>

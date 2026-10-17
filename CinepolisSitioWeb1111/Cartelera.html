@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartelera - Cinépolis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            background-color: white;
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+        }
+        h1 {
+            background-color: rgb(0, 28, 110);
+            color: white;
+            border: 5px solid rgb(255, 198, 9);
+            font-weight: 800;
+            letter-spacing: 0.5px;
+            padding: 50px;
+            text-align: center;
+            margin: 0;
+        }
+        nav {
+            background-color: rgb(0, 0, 70);
+            border: 5px solid rgb(255, 198, 9);
+            border-bottom: none;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        .registrate {
+            margin-left: auto;
+        }
+        .contenedor-cartelera {
+            margin: 30px 20px;
+        }
+        .grid-peliculas {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .tarjeta-pelicula {
+            background-color: rgb(0, 28, 110);
+            border: 3px solid rgb(255, 198, 9);
+            border-radius: 8px;
+            color: white;
+            padding: 15px;
+            width: 250px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .tarjeta-pelicula img {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+            border-radius: 5px;
+            border: 2px solid rgb(255, 198, 9);
+        }
+        .tarjeta-pelicula h3 {
+            margin: 10px 0 5px 0;
+            color: rgb(255, 198, 9);
+        }
+        .tarjeta-pelicula p {
+            margin: 4px 0;
+            font-size: 0.9rem;
+        }
+        .horarios {
+            background-color: rgb(255, 198, 9);
+            color: rgb(0, 0, 70);
+            padding: 5px 10px;
+            border-radius: 4px;
+            display: inline-block;
+            margin: 3px;
+            font-weight: bold;
+            font-size: 0.85rem;
+        }
+        footer {
+            background-color: rgb(0, 0, 70);
+            border: 5px solid rgb(255, 198, 9);
+            padding: 10px;
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+        }
+        footer p {
+            margin: 4px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="Cinepolis.html">Inicio</a>
+            <a href="Cartelera.html">Cartelera</a>
+            <a href="Estrenos.html">Próximos estrenos</a>
+        </div>
+        <a href="registrocineclub.html" class="registrate">Regístrate</a>
+    </nav>
+    <h1>Cinépolis - Cartelera</h1>
+    <div class="contenedor-cartelera">
+        <h2>Películas y horarios</h2>
+        <div class="grid-peliculas">
+            <div class="tarjeta-pelicula">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.27bMFKjtQAqnEFYC-MdYMAHaLH?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Cien Años de Soledad">
+                <h3>Your name</h3>
+                <p><strong>Clasificación:</strong> B15</p>
+                <p><strong>Duración:</strong> 140 min</p>
+                <p><strong>Horarios:</strong></p>
+                <span class="horarios">14:00</span>
+                <span class="horarios">17:30</span>
+                <span class="horarios">21:00</span>
+            </div>
+            <div class="tarjeta-pelicula">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.k6DryO8sZxV2s7Kgm90cnwAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Una Película de Minecraft">
+                <h3>El charro negro</h3>
+                <p><strong>Clasificación:</strong> A</p>
+                <p><strong>Duración:</strong> 110 min</p>
+                <p><strong>Horarios:</strong></p>
+                <span class="horarios">13:10</span>
+                <span class="horarios">15:40</span>
+                <span class="horarios">18:20</span>
+            </div>
+            <div class="tarjeta-pelicula">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIUvX9s3cgociGUbPy5wrv1wQlWqgEDq4WsKiWEj1LDSpChPHR37D6XhD1_7aujUFxgvIcUnR2A_l27gO6VBUnJ1jv6ualjUUhc5WyS85kKulvWiAtMCoUpnp3a_DX62_D6ZN9YXEYl7b8i95KSbfFNqZyWMSfz77_knJfi_j7KSDIf_189ckKxv8epX4l/w452-h640-rw/HCF-EventPoster_ESP_Final.jpg" alt="El Conjuro 4: Last Rites">
+                <h3>HYBE cine fest</h3>
+                <p><strong>Clasificación:</strong> C</p>
+                <p><strong>Duración:</strong> 125 min</p>
+                <p><strong>Horarios:</strong></p>
+                <span class="horarios">18:00</span>
+                <span class="horarios">20:30</span>
+                <span class="horarios">22:45</span>
+            </div>
+            <div class="tarjeta-pelicula">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYpSiYHCYLvA52tuYObqVYlEZaFW4K122DdLTBV1VhSt_t_Xhib3yroaYb1VWyav-y96-_L_NJ-m3GTBxCldYEv1j3Twg7O2CWj3MLcWKCub7FwtqKBqXymunts0pgKbVbCgb0xd-tQRXihiHoWZ8PcuUqNHzCKi2ShGsCiWdvTZ6ZcHG1Bg/s929/tumblr_abfb9ea872b577083859806c6b6081f2_dbe53fa4_640.jpg" alt="Coraline y la puerta secreta">
+                <h3>Coyote vs Acme</h3>
+                <p><strong>Clasificación:</strong> A</p>
+                <p><strong>Duración:</strong> 100 min</p>
+                <p><strong>Horarios:</strong></p>
+                <span class="horarios">12:30</span>
+                <span class="horarios">15:00</span>
+                <span class="horarios">17:15</span>
+            </div>
+            <div class="tarjeta-pelicula">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.yAzN-BhNnov5qaQ7JUoAoQHaK-?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Rápidos y Furiosos 10">
+                <h3>Avengers Endgame</h3>
+                <p><strong>Clasificación:</strong> B</p>
+                <p><strong>Duración:</strong> 141 min</p>
+                <p><strong>Horarios:</strong></p>
+                <span class="horarios">16:00</span>
+                <span class="horarios">19:15</span>
+                <span class="horarios">22:10</span>
+            </div>
+            <div class="tarjeta-pelicula">
+                <img src="https://tierragamer.com/wp-content/uploads/2025/03/demon-slayer-kimetsu-no-yaiba-el-castillo-infinito-poster-1024x1544.webp" alt="Demon Slayer: Castillo Infinito">
+                <h3>Demon Slayer: Castillo Infinito</h3>
+                <p><strong>Clasificación:</strong> B15</p>
+                <p><strong>Duración:</strong> 135 min</p>
+                <p><strong>Horarios:</strong></p>
+                <span class="horarios">15:30</span>
+                <span class="horarios">18:40</span>
+                <span class="horarios">21:30</span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Lia Natalia Bretado Quiroz</p>
+        <p>24308051281111</p>
+        <p>5to J</p>
+        <p>Programacion</p>
+        <p>Construye aplicaciones web</p>
+    </footer>
+</body>
+</html>
